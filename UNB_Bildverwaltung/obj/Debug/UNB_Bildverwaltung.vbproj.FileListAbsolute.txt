@@ -1,0 +1,12 @@
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\bin\Debug\UNB_Bildverwaltung.exe.config
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\bin\Debug\UNB_Bildverwaltung.exe
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\bin\Debug\UNB_Bildverwaltung.pdb
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\bin\Debug\UNB_Bildverwaltung.xml
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\obj\Debug\UNB_Bildverwaltung.Frm_Einstellungen.resources
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\obj\Debug\UNB_Bildverwaltung.Frm_SuchEingabe.resources
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\obj\Debug\UNB_Bildverwaltung.Resources.resources
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\obj\Debug\UNB_Bildverwaltung.vbproj.GenerateResource.cache
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\obj\Debug\UNB_Bildverwaltung.exe
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\obj\Debug\UNB_Bildverwaltung.xml
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\obj\Debug\UNB_Bildverwaltung.pdb
+E:\SourceCode\Apps\Bildverwaltung\UNB_Bildverwaltung\obj\Debug\UNB_Bildverwaltung.vbprojAssemblyReference.cache
