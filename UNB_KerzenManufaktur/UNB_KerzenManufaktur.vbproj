@@ -47,6 +47,27 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>UNB_KerzenManufaktur.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>UNB_KerzenManufaktur.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -55,7 +76,6 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http" />
   </ItemGroup>
@@ -73,17 +93,68 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="Forms\Anmeldung\Form_Anmeldung.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Forms\Anmeldung\Form_Anmeldung.Designer.vb">
+      <DependentUpon>Form_Anmeldung.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Anmeldung\Klassen\Benutzer_Objekt.vb" />
+    <Compile Include="Forms\Kerzen\Ansprechpartner\FrmAnsprechpartner.Designer.vb">
+      <DependentUpon>FrmAnsprechpartner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Ansprechpartner\FrmAnsprechpartner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Aufträge\FrmAuftrag.Designer.vb">
+      <DependentUpon>FrmAuftrag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Aufträge\FrmAuftrag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Dialoge\DlgEinheiten.Designer.vb">
+      <DependentUpon>DlgEinheiten.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Dialoge\DlgEinheiten.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Einheiten\FrmEinheiten.Designer.vb">
+      <DependentUpon>FrmEinheiten.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Einheiten\FrmEinheiten.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Adressen\FrmAdressen.Designer.vb">
+      <DependentUpon>FrmAdressen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Adressen\FrmAdressen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Einkauf\FrmEinkauf.Designer.vb">
+      <DependentUpon>FrmEinkauf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Einkauf\FrmEinkauf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmStart.Designer.vb">
+      <DependentUpon>FrmStart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Materialien\FrmMaterialien.Designer.vb">
+      <DependentUpon>FrmMaterialien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Kerzen\Materialien\FrmMaterialien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Klassen\Einheiten\SQL_Einheiten.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -97,11 +168,38 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Forms\Anmeldung\Form_Anmeldung.resx">
+      <DependentUpon>Form_Anmeldung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Kerzen\Ansprechpartner\FrmAnsprechpartner.resx">
+      <DependentUpon>FrmAnsprechpartner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Kerzen\Aufträge\FrmAuftrag.resx">
+      <DependentUpon>FrmAuftrag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Kerzen\Dialoge\DlgEinheiten.resx">
+      <DependentUpon>DlgEinheiten.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Kerzen\Einheiten\FrmEinheiten.resx">
+      <DependentUpon>FrmEinheiten.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Kerzen\Adressen\FrmAdressen.resx">
+      <DependentUpon>FrmAdressen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Kerzen\Einkauf\FrmEinkauf.resx">
+      <DependentUpon>FrmEinkauf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmStart.resx">
+      <DependentUpon>FrmStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Kerzen\Materialien\FrmMaterialien.resx">
+      <DependentUpon>FrmMaterialien.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -114,7 +212,64 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UNB_Allgemeine_Klassen\UNB_Allgemeine_Klassen.vbproj">
+      <Project>{46af8902-031e-4d85-81ae-fac4c0327415}</Project>
+      <Name>UNB_Allgemeine_Klassen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Klassen\Adressen\" />
+    <Folder Include="Klassen\Ansprechpartner\" />
+    <Folder Include="Klassen\Aufträge\" />
+    <Folder Include="Klassen\Einkauf\" />
+    <Folder Include="Klassen\Materialien\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_pdf.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_PDF_Liste.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_PDF_Klein.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Neu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

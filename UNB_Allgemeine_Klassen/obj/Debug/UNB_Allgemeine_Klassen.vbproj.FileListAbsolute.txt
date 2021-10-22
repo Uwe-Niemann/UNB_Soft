@@ -1,0 +1,10 @@
+E:\Source\RePos\UNB_Soft\UNB_Allgemeine_Klassen\bin\Debug\UNB_Allgemeine_Klassen.dll
+E:\Source\RePos\UNB_Soft\UNB_Allgemeine_Klassen\bin\Debug\UNB_Allgemeine_Klassen.pdb
+E:\Source\RePos\UNB_Soft\UNB_Allgemeine_Klassen\bin\Debug\UNB_Allgemeine_Klassen.xml
+E:\Source\RePos\UNB_Soft\UNB_Allgemeine_Klassen\obj\Debug\UNB_Allgemeine_Klassen.vbproj.AssemblyReference.cache
+E:\Source\RePos\UNB_Soft\UNB_Allgemeine_Klassen\obj\Debug\Allgemeine_Klassen.Resources.resources
+E:\Source\RePos\UNB_Soft\UNB_Allgemeine_Klassen\obj\Debug\UNB_Allgemeine_Klassen.vbproj.GenerateResource.cache
+E:\Source\RePos\UNB_Soft\UNB_Allgemeine_Klassen\obj\Debug\UNB_Allgemeine_Klassen.vbproj.CoreCompileInputs.cache
+E:\Source\RePos\UNB_Soft\UNB_Allgemeine_Klassen\obj\Debug\UNB_Allgemeine_Klassen.dll
+E:\Source\RePos\UNB_Soft\UNB_Allgemeine_Klassen\obj\Debug\UNB_Allgemeine_Klassen.xml
+E:\Source\RePos\UNB_Soft\UNB_Allgemeine_Klassen\obj\Debug\UNB_Allgemeine_Klassen.pdb

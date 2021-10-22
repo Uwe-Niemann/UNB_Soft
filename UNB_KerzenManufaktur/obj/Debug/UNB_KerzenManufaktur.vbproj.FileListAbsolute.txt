@@ -1,0 +1,12 @@
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\bin\Debug\UNB_KerzenManufaktur.exe.config
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\bin\Debug\UNB_KerzenManufaktur.exe
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\bin\Debug\UNB_KerzenManufaktur.pdb
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\bin\Debug\UNB_KerzenManufaktur.xml
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\obj\Debug\UNB_KerzenManufaktur.vbproj.AssemblyReference.cache
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\obj\Debug\UNB_KerzenManufaktur.Form_Anmeldung.resources
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\obj\Debug\UNB_KerzenManufaktur.Resources.resources
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\obj\Debug\UNB_KerzenManufaktur.vbproj.GenerateResource.cache
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\obj\Debug\UNB_KerzenManufaktur.vbproj.CoreCompileInputs.cache
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\obj\Debug\UNB_KerzenManufaktur.exe
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\obj\Debug\UNB_KerzenManufaktur.xml
+e:\Source\RePos\UNB_Soft\UNB_KerzenManufaktur\obj\Debug\UNB_KerzenManufaktur.pdb
